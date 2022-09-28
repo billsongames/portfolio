@@ -1,0 +1,87 @@
+/* VARIABLES ##################################*/
+
+:root {
+    --color-bg: #272932;
+    --color-one: #4D7EA8;
+    --color-two: #828489;
+    --color-three: #9E90A2;
+    --color-four: #B6C2D9;
+
+    --border-radius: 16px;
+
+}
+
+body {
+    background-color: var(--color-bg);
+    color: white;
+
+    font-family: 'Roboto Condensed', serif;
+    font-size: 28px;
+}
+
+/* LOGO NAV ###################################*/
+
+.logo-nav {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 20%;
+    justify-content: space-between;    
+}
+
+#logo {
+    border-radius: var(--border-radius);
+}
+
+.nav-item:link {
+    color: var(--color-one);
+    text-decoration: none;
+}
+
+.nav-item:visited {
+    color: var(--color-one);
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    color: var(--color-four)
+    text-decoration: none;
+}
+
+
+/* NAME BLURB #################################*/
+
+.name-blurb {
+    text-align: center;
+}
+
+#name {
+    color: var(--color-one);
+    font-size: 32px;
+}
+
+/* PROJECTS ###################################*/
+
+.projects {
+    display: flex;
+    flex-flow: row wrap;
+
+    background-color: var(--color-two);
+    padding: 40px;
+    margin: 20px 20%;
+    border-radius: var(--border-radius);
+    justify-content: space-between;
+}
+
+.project-image img {
+    border-radius: var(--border-radius);
+}
+
+.project-text {
+    text-align: center;
+}
+
+/* FOOTER #####################################*/
+
+.footer {
+    text-align: center;
+}
