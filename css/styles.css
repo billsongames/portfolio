@@ -43,7 +43,7 @@ body {
 }
 
 .nav-item:hover {
-    color: var(--color-four)
+    color: var(--color-four);
     text-decoration: none;
 }
 
