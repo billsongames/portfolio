@@ -43,6 +43,7 @@ body {
 }
 
 .nav-item:hover {
+    transition: color 0.5s;
     color: var(--color-four);
     text-decoration: none;
 }
@@ -72,8 +73,14 @@ body {
     justify-content: space-between;
 }
 
-.project-image img {
+.project-image {
+    border: solid 6px transparent;
     border-radius: var(--border-radius);
+ }
+
+.project-image:hover {
+    transition: border-color 0.5s;
+     border-color: black;
 }
 
 .project-text {
