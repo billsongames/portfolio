@@ -6,29 +6,36 @@
     <title>Paul Spencer</title>
 </head>
 <body>
-    <div class="logo-nav">
+
+<!-- LOGO-NAV------ ------------------------------------------------------------------->
+
+    <div id="logo-nav">
         <div>
             <img id="logo" src="images/computers.jpg" alt="Some old computers">
         </div>
         <div>
-            <nav>
-                <ul>
+            <nav id="nav">
+                <ul id="nav-list">
                     <li><a class="nav-item" href="https://twitter.com/pscodes" target="_blank">Twitter</a></li>
                     <li><a class="nav-item"href="email:pscodes22@gmail.com">email</a></li>
                 </ul>
             </nav>
         </div>        
     </div>
+
+<!-- NAME-BLURB---- ------------------------------------------------------------------->
     
-    <div class="name-blurb">
-        <div id="name"><p>Hello, I'm Paul</p></div>
+    <div id="name-blurb">
+        <div id="name-ps"><h3>Hello, I'm Paul</h3></div>
         <div id="blurb"><p>I'm a student at Manchester Codes. I like anything that originates from before the year 2000. I also play guitar.</p></div>
     </div>
 
-    <div class="projects">
+<!-- PROJECTS ------------------------------------------------------------------------->
+
+    <div id="projects">
         <div id="project-one">
-            <div><img class="project-image" src="images/arcade_machines.jpg" alt=""></div>
-            <div class="project-text">Project One description</div>
+            <div><a href="https://billsongames.itch.io/" target="_blank"><img class="project-image" src="images/projects/billson-games.png" alt="Billson Games"></a></div>
+            <div class="project-text">I develop retro inspired games for mobile and PC platforms.</div>
         </div>
 
         <div id="project-two">
@@ -42,10 +49,42 @@
         </div>
     </div>
 
+<!-- CONTACT ------------------------------------------------------------------->
+
+    <div id="contact">
+        <h3>CONTACT</h3>
+        <div class="contact-form">
+            <form method="post">
+                <ul>
+                    <li>
+                        <label class="form-label" for="name">Name </label>
+                        <input type="text" id="name" name="name">
+                    </li>
+                    <br>
+                    <li>
+                        <label class="form-label" for="email">email </label>
+                        <input type="email" id="email" name="email">
+                    </li>
+                    <br>
+                    <li>
+                        <label class="form-label" for="message">Message </label>
+                        <textarea id="message" name="message">Your message...</textarea>
+                    </li>
+                    <li class="button">
+                        <button type="submit">Submit</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+
+<!-- FOOTER --------------------------------------------------------------------------->
+
     <div class="footer">
         <hr width="60%">
         © Copyright 2022 and all that business
         <hr width="60%">
     </div>
+
 </body>
 </html>
